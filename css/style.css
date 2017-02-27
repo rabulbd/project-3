@@ -1,0 +1,608 @@
+/* ==== 
+Robi blueasy template
+Design by Robiul Islam Robi
+Institute CREATIVE IT
+   ==== */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+    color: #444333;
+}
+
+
+/* === basic css === */
+
+@font-face {
+    font-family: name;
+    src: url("");
+}
+
+@font-face {
+    font-family: name;
+    src: url("");
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0px auto;
+    width: 1170px;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* === header css starts === */
+
+.full_header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    background: rgba(53, 63, 70, 0.85);
+}
+
+.header {
+    line-height: 150px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.logo a span {
+    color: #4BCAFF;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    padding: 0px 10px
+}
+
+.menu ul li a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+
+.menu ul li a:hover {
+    color: #4BCAFF;
+    border: 2px solid #4BCAFF;
+}
+
+.menu .active {
+    color: #4BCAFF;
+    border: 2px solid #4BCAFF;
+}
+
+
+/* === banner starts === */
+
+.full_banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner {
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 260px;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 42px;
+    font-family: Segoe UI;
+    font-weight: 300;
+    background: rgba(71, 82, 89, 0.8);
+}
+
+
+/* === services starts ==== */
+
+.full_services {
+    background: #4BCAFF;
+}
+
+.services {
+    height: 270px;
+    padding: 80px 0px;
+}
+
+.services h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.services h2 span {
+    border-bottom: 2px solid #fff;
+}
+
+.services ul li {
+    margin-top: 38px;
+    float: left;
+    width: 260px;
+    margin-right: 30px;
+}
+
+.services ul li h3 {
+    margin: 18px 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    font-family: Segoe UI;
+    font-weight: 600;
+}
+
+.services ul li p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Segoe UI;
+}
+
+
+/* === portfolio starts ==== */
+
+.portfolio h2 {
+    float: left;
+    padding: 80px 0px;
+    color: #515F67;
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.portfolio h2 span {
+    border-bottom: 2px solid #515F67;
+}
+
+.portfolio ul {
+    padding: 80px 0px;
+    float: right;
+}
+
+.portfolio ul li {
+    float: left;
+    padding: 0px 10px
+}
+
+.portfolio ul li a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #515F67;
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+
+.portfolio ul li a:hover {
+    color: #4BCAFF;
+    border: 2px solid #4BCAFF;
+}
+
+.portfolio .active {
+    color: #4BCAFF;
+    border: 2px solid #4BCAFF;
+}
+
+.gallery {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 268px;
+    height: 268px;
+    margin: 12px;
+    float: left;
+}
+
+.gallery:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 270px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+    line-height: 270px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+
+/* ==== section starts === */
+
+.full_section {
+    background: #515F67;
+}
+
+.section {
+    margin-top: 70px;
+    padding: 80px 0px;
+    height: 290px;
+}
+
+.section_text {
+    float: left;
+    width: 460px;
+}
+
+.section_text h2 {
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section_text h2 span {
+    border-bottom: 2px solid #fff;
+}
+
+.section_text p {
+    padding-top: 45px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Segoe UI;
+}
+
+.section_text a {
+    margin-top: 20px;
+    padding: 10px 35px;
+    border: 2px solid #353F46;
+    color: #353F46;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Segoe UI;
+    transition: .5s;
+}
+
+.section_text a:hover {
+    color: #fff;
+    background: #4BCAFF;
+}
+
+.section_video {
+    float: right;
+    width: 560px;
+    height: 310px;
+    overflow: hidden;
+}
+
+
+/* === twitter starts === */
+
+.full_twitter {
+    background: #4BCAFF;
+}
+
+.twitter {
+    padding: 80px;
+    0px;
+}
+
+.twitter h2 {
+    float: left;
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.twitter h2 span {
+    border-bottom: 2px solid #fff;
+}
+
+.twitter a {
+    float: right;
+    color: #fff;
+    font-size: 28px;
+    transition: .5s;
+}
+
+.twitter a:hover {
+    color: #140e9a;
+}
+
+.twitter p {
+    margin-top: 35px;
+    font-size: 28px;
+    font-family: Segoe UI;
+    font-weight: 300;
+    color: #fff;
+}
+
+.twitter p span {
+    font-weight: 600;
+}
+
+
+/* === who starts === */
+
+.full_who {
+    background: url(../images/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.who {
+    padding-top: 100px;
+    height: 450px;
+    color: #fff;
+    font-family: Segoe UI;
+    font-weight: 300;
+}
+
+.who_text {
+    float: left;
+    width: 550px;
+    padding-right: 20px;
+}
+
+.who_text h2 {
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.who_text h2 span {
+    border-bottom: 2px solid #fff;
+}
+
+.who_text p {
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 35px;
+}
+
+.who_social {
+    padding-top: 80px;
+    float: right;
+    width: 550px;
+    padding-right: 20px;
+}
+
+.who_social p {
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 35px;
+}
+
+.who_social a i {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    padding: 16px;
+    margin-right: 15px;
+    color: #fff;
+    transition: .5s;
+    border: 2px solid #fff;
+}
+
+.who_social a i:hover {
+    border: 2px solid #5a5a5a;
+    background: #4BCAFF;
+}
+
+
+/* === tarminatimonials === */
+
+.testimonial {
+    padding: 80px 0px;
+}
+
+.testimonial h2 {
+    text-transform: uppercase;
+    color: #515F67;
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: 300;
+}
+
+.testimonial h2 span {
+    border-bottom: 2px solid #515F67;
+}
+
+.testimonial h3 {
+    padding: 40px 0px;
+    font-size: 28px;
+    color: #515F67;
+    font-family: Segoe UI;
+    font-weight: 300;
+}
+
+.testimonial a {
+    color: #4BCAFF;
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+
+/* === full_contact starts === */
+
+.full_contact {
+    background: url(../images/massage_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact {
+    padding: 80px 0px;
+    height: 750px;
+    position: relative;
+}
+
+.contact .contact_form {
+    float: left;
+}
+
+.contact .contact_form h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.contact .contact_form h2 span {
+    border-bottom: 2px solid #fff;
+}
+
+.contact .contact_form label {
+    color: #fff;
+    padding-bottom: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    display: block;
+}
+
+.contact .contact_form input,
+textarea {
+    background-color: transparent;
+    height: 60px;
+    width: 470px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    padding-left: 20px;
+    border: 2px solid #fff;
+    margin-bottom: 40px;
+}
+
+.contact .contact_form textarea {
+    width: 1170px;
+    height: 220px;
+}
+
+.contact .contact_form input[type="submit"] {
+    width: 370px;
+    background: #4BCAFF;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+.contact .contact_form input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    border: 2px solid #4BCAFF;
+    box-shadow: 0px 0px 5px 2px #00b4ff;
+}
+
+.contact .contact_text {
+    float: right;
+    width: 570px;
+    position: absolute;
+    top: 140px;
+    right: 0;
+}
+
+.contact .contact_text p {
+    color: #fff;
+    font-size: 14px;
+    font-family: Segoe UI;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+
+/* === footer starts === */
+
+.full_footer {
+    background: #353F47;
+}
+
+.footer_part {
+    padding: 50px 0px;
+}
+
+.footer_part ul li {
+    float: left;
+    padding-left: 10px;
+    border-right: 2px solid #515F67;
+}
+
+.footer_part ul li:last-child {
+    float: right;
+    border-right: 2px solid transparent;
+}
+
+.footer_part ul li a {
+    font-size: 12px;
+    padding-right: 15px;
+    color: #515F67;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.footer_part ul li a:hover {
+    color: #ffffff;
+}
